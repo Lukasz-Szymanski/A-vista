@@ -1,12 +1,14 @@
-const mainContainer = document.getElementById('image');
-const addButton = document.getElementById('button');
+const imageArray = ["<img src=/src/1.png>", "<img src=/src/2.png>", "<img src=/src/3.png>", "<img src=/src/4.png>", "<img src=/src/5.png>"];
 
-addButton.addEventListener('click', addRandomImg, false);
+const image = document.querySelector("img");
+const button = document.querySelector("button");
 
-function addRandomImg() {
-    let randomIndex = Math.floor(Math.random() * 5);
+window.onload = () => generateRandomPicture(imageArray);
 
-    const newImage = document.createElement('png');
-    newImage.src = './src/${1}.png';
-    mainContainer.appendChild(newImage);
+button.addEventListener("click", () => generateRandomPicture(imageArray));
+
+function generateRandomPicture(array){
+    let randomNum = Math.floor(Math.random() * array.length);
+    image.setAttribute("src", array[randomNum]);
 }
+
