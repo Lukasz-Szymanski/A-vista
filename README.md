@@ -1,9 +1,18 @@
-# A-vista Exercise 
+# A-vista Application
 
-Page build with Bulma framework
+## Functionality:
+* The A'vista project is designed to randomly generate images of fragments of orchestral and solo works. 
+* The aim of the project was to create a website that would allow musicians to develop their a-vista skills.
 
 
-<url> https://siemabrokul.github.io/A-vista/ </url>
+## Technologies:
+* HTML5 
+* CSS Framework: Bulma
+* JavaScript
 
 
-The A'vista project is designed to randomly generate images of fragments of orchestral and solo works. The aim of the project was to create a website that would allow musicians to develop their a-vista skills.
+### Live Demo: 
+https://siemabrokul.github.io/A-vista/
+
+
+
