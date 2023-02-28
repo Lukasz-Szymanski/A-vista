@@ -1,4 +1,4 @@
-# A-vista Application
+# A-vista Application (In production)
 
 ## Functionality:
 * The A'vista project is designed to randomly generate images of fragments of orchestral and solo works. 
