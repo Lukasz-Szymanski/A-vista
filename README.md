@@ -12,7 +12,7 @@
 
 
 ### Live Demo: 
-https://siemabrokul.github.io/A-vista/
+https://lukasz-szymanski.github.io/A-vista/
 
 
 
